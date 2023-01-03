@@ -246,7 +246,40 @@
     
 
 'Create forms'
-
+    Form types (Типи форм):
+        - Main (the main user interface) (Головна (головний інтерфейс користувача))
+            '''
+                Used in model-driven apps, Dynamics 365 for tablets, and Dynamics 365 for Outlook
+                These forms provide the main user interface for viewing and interacting with table data
+                (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook
+                Ці форми забезпечують основний інтерфейс користувача для перегляду даних таблиці та взаємодії з ними)
+            '''
+        - Quick create (rapid data entry) (Швидке створення (швидке введення даних))
+            '''
+                Used in model-driven apps, Dynamics 365 for tablets, and Dynamics 365 for Outlook.
+                For updated tables, these forms provide a basic form optimized for creating new records.
+                (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook.
+                Для оновлених таблиць ці форми забезпечують базову форму, оптимізовану для створення нових записів.)
+            '''
+        - Quick view (to see related data) (Швидке подання (для перегляду пов’язаних даних))
+            '''
+                Used in model-driven apps, Dynamics 365 for tablets, and Dynamics 365 for Outlook.
+                For updated tables, these forms appear within the main form to display additional data for a row that is referenced 
+                    by a lookup column in the form.
+                Users can view data from related tables without having to leave the form.
+                (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook.
+                Для оновлених таблиць ці форми відображаються в основній формі для відображення додаткових даних для рядка, на який 
+                    є посилання в стовпці підстановки у формі.
+                Користувачі можуть переглядати дані з пов’язаних таблиць, не залишаючи форму.)
+            '''
+        - Card form (a compact view) (Форма картки (компактне подання))
+            '''
+                Used in views for model-driven apps. Card forms are designed to present information in a compact format that is 
+                suitable for mobile devices.
+                (Використовується в поданнях для модельних програм. Форми картки форми призначені для представлення відомостей у 
+                компактному форматі, що підходить для мобільних пристроїв.)
+            '''
+        
 'Different types, including main, quick view and quick create'
 
 'Create views'
