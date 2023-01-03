@@ -246,6 +246,9 @@
     
 
 'Create forms'
+    
+        
+'Different types, including main, quick view and quick create'
     Form types (Типи форм):
         - Main (the main user interface) (Головна (головний інтерфейс користувача))
             '''
@@ -253,6 +256,7 @@
                 These forms provide the main user interface for viewing and interacting with table data
                 (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook
                 Ці форми забезпечують основний інтерфейс користувача для перегляду даних таблиці та взаємодії з ними)
+                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/main-form-dialog.gif
             '''
         - Quick create (rapid data entry) (Швидке створення (швидке введення даних))
             '''
@@ -260,6 +264,7 @@
                 For updated tables, these forms provide a basic form optimized for creating new records.
                 (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook.
                 Для оновлених таблиць ці форми забезпечують базову форму, оптимізовану для створення нових записів.)
+                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/quick-create-form.gif
             '''
         - Quick view (to see related data) (Швидке подання (для перегляду пов’язаних даних))
             '''
@@ -271,6 +276,7 @@
                 Для оновлених таблиць ці форми відображаються в основній формі для відображення додаткових даних для рядка, на який 
                     є посилання в стовпці підстановки у формі.
                 Користувачі можуть переглядати дані з пов’язаних таблиць, не залишаючи форму.)
+                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/quick-view-form-control.png
             '''
         - Card form (a compact view) (Форма картки (компактне подання))
             '''
@@ -278,9 +284,8 @@
                 suitable for mobile devices.
                 (Використовується в поданнях для модельних програм. Форми картки форми призначені для представлення відомостей у 
                 компактному форматі, що підходить для мобільних пристроїв.)
+                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/card-format.png
             '''
-        
-'Different types, including main, quick view and quick create'
 
 'Create views'
 
