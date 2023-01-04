@@ -1,10 +1,10 @@
-'Main page Power Apps: (For running app)'
+Main page Power Apps: (For running app)
     https://make.powerapps.com/environments/61be436c-10d7-e8dd-b075-1367221019f1/apps#
 
-'Link to my Pet project'
+Link to my Pet project
     https://make.powerapps.com/e/61be436c-10d7-e8dd-b075-1367221019f1/s/82ecc8b3-a280-ed11-81ac-6045bd5cd155/app/edit/a6708dad-5081-ed11-81ac-6045bd5cd155
 
-'Create table'
+Create table
     Notes about tables:
         'Tables where formerly called entities'
         'A single row within a table is known as a record'
@@ -169,7 +169,7 @@
         To identify and remove any dependencies, you'll need to use the solution explorer.)
         '''
         
-'Create columns #Different types, including calculated and rollup'
+Create columns Different types, including calculated and rollup
     Наведена нижче таблиця містить відповідний AttributeTypeDisplayName тип API.
         (The following table includes the corresponding AttributeTypeDisplayName API type.)
         '''
@@ -245,10 +245,10 @@
         '''
     
 
-'Create forms'
+Create forms
     
         
-'Different types, including main, quick view and quick create'
+Different types, including main, quick view and quick create
     Form types (Типи форм):
         - Main (the main user interface) (Головна (головний інтерфейс користувача))
             '''
@@ -287,8 +287,32 @@
                 https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/card-format.png
             '''
 
-'Create views'
-
+Create views
+    '''Model-driven apps use views to define how a list of records for a specific table are displayed in the application (У модельних 
+        програмах використовуються подання, за допомогою яких можна визначити, як список записів для певної таблиці відображається 
+        у програмі.)'''
+    Create a public view in Power Apps
+        1. Sign in to Power Apps
+        2. Select an environment
+            '''It is best practice to create tables inside a custom solution. More information: Solution (glossary)'''
+        3. Expand Data, select Tables, select the table you want, and then select the Views area. If using a custom solution, open 
+            the solution, open the table, and then select the Views area.
+        4. On the toolbar, select Add view.
+        5. On the Create a view dialog, enter a name and, optionally, a description, and then select Create.
+        6. In the view designer, select + View column to add additional columns needed within the view. Or, select Table columns 
+            in the left navigation and drag the table columns into your view.
+        7. In the view designer, the following tasks can be performed:
+            '''
+            - To change the column filtering select the header of the column where the filter is required, and then in the dropdown 
+                list select Filter by.
+            - To change the column sorting select the header of the column where sorting is needed then select Sort A-Z, Sort Z-A, 
+                Sort descending, or Sort ascending.
+            - Configure column width by selecting and dragging the column to the desired position.
+            - Reorder columns by dragging a column to the desired position.
+            '''
+        8. Select Publish to save the view and make it available for other users in your organization.
+        
+        
 'Create model-driven app'
 
 'Business rules'
