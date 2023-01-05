@@ -365,6 +365,10 @@ Create model-driven app
                 Показати діаграму)
     '''
 
-'Business rules'
+Business rules
+    '''
+        Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules.
+        (ізнес-правила надають простий інтерфейс для впровадження й підтримують правила, що швидко змінюються й часто використовуються)
+    '''
 
 'Security roles'
