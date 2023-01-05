@@ -321,9 +321,49 @@ Create views
         8. Select Publish to save the view and make it available for other users in your organization. (Змініть порядок стовпців, 
             еретягнувши стовпець у потрібне положення)
     '''
-        
-        
-'Create model-driven app'
+    
+Create model-driven app
+    '''
+    1. Sign in to Power Apps
+    2. Select the environment
+        Each environment can have one Dataverse database.
+    3. Create your model-driven app
+        3.1 Select Solutions on the left navigation pane, and then select New solution.
+            (Виберіть «Рішення» в області переходів ліворуч, а потім натисніть «Створити рішення»)
+        3.2 Enter a Display name for your solution, such as Power Apps Training. Next, you add the account table that will be 
+            included in your model-driven app. (Введіть Коротке ім'я рішення, наприклад "Навчання з Power Apps". Потім додайте 
+            таблицю бізнес-партнерів, яку буде включено в модельну програму)
+        3.3 In your solution, select Add existing, and then select Table
+            (У рішенні виберіть Додати наявні та виберіть Таблиця)
+        3.4 Under Add existing tables screen, select the Account table, and then select Next.
+            (На екрані Додати наявні таблиці виберіть таблицю Бізнес-партнер і натисніть кнопку Далі)
+        3.5 Select Include all components, and then select Add.
+            (Виберіть Включити всі компоненти та натисніть кнопку Додати)
+        3.6 In your solution, select New, select App, and then select Model-driven app
+            (У рішенні натисніть кнопку Створити, виберіть Програма, а потім — Модельна програма)
+        3.7 Enter a name for the app, such as My new custom app2, and then select Create
+            (Введіть ім’я програми, наприклад Мою нова настроювана програма2, і натисніть кнопку Створити)
+    4. Add pages to your app
+        4.1 Select New page from the Pages menu (Виберіть Нова сторінка в меню Сторінки)
+        4.2 Select Table based view and form, and then select Next (Виберіть Подання та форма на основі таблиці та натисніть кнопку Далі)
+        4.3 Select a table, such as Contact (Виберіть таблицю, наприклад, Контактна особа)
+        4.4 Select Contact view, and then select Add view (Виберіть Подання контактної особи, а потім натисніть Додати подання)
+        4.5 Select the views that you want to add to the app. Save and publish to see selected views in preview
+            (Виберіть подання, які потрібно додати до програми. Збережіть та опублікуйте, щоб переглянути вибрані подання в режимі 
+            попереднього перегляду)
+        4.6 On the app designer command bar, select Save (На панелі команд конструктора програм натисніть Зберегти)
+    5. Publish your app - On the app designer command bar, select Publish. After publishing the app, it's ready for you to 
+        run or share with others
+            (На панелі команд конструктора програм натисніть Опублікувати - Після публікації програма готова до запуску для вас або 
+            спільного використання з іншими користувачами)
+    6. Run your app on a desktop computer
+        6.1 To run your app, sign in to Power Apps, and on the left navigation pane, select Apps
+            (Щоб запустити програму, увійдіть до Power Apps та в області переходів ліворуч виберіть Програми)
+        6.2 Select the app from the app list. The app opens in your browser. If you want to show the chart, use the 
+            button Show Chart
+                (Виберіть програму в списку програм. Програма відкриється у браузері. Щоб відобразити діаграму, скористайтеся кнопкою 
+                Показати діаграму)
+    '''
 
 'Business rules'
 
