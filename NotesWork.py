@@ -292,25 +292,35 @@ Create views
         програмах використовуються подання, за допомогою яких можна визначити, як список записів для певної таблиці відображається 
         у програмі.)'''
     Create a public view in Power Apps
-        1. Sign in to Power Apps
-        2. Select an environment
-            '''It is best practice to create tables inside a custom solution. More information: Solution (glossary)'''
+    '''
+        1. Sign in to Power Apps (Увійти до Power Apps)
+        2. Select an environment (Виберіть середовище)
+            It is best practice to create tables inside a custom solution. More information: Solution (glossary)
+            (Краще створити таблиці в настроюваному рішенні. Додаткові відомості: Рішення (глосарій))
         3. Expand Data, select Tables, select the table you want, and then select the Views area. If using a custom solution, open 
             the solution, open the table, and then select the Views area.
-        4. On the toolbar, select Add view.
-        5. On the Create a view dialog, enter a name and, optionally, a description, and then select Create.
+            (Розгорніть Дані, виберіть Таблиці, виберіть потрібну таблицю, а потім виберіть область Подання. Якщо використовується 
+            настроюване рішення, відкрийте рішення, відкрийте таблицю, а потім виберіть область Подання)
+        4. On the toolbar, select Add view. (Виберіть Додати подання на панелі інструментів)
+        5. On the Create a view dialog, enter a name and, optionally, a description, and then select Create. 
+            (У діалоговому вікні Створити подання введіть ім'я і, за потреби, опис, а потім виберіть Створити)
         6. In the view designer, select + View column to add additional columns needed within the view. Or, select Table columns 
             in the left navigation and drag the table columns into your view.
-        7. In the view designer, the following tasks can be performed:
-            '''
+            (У конструкторі подань виберіть + Стовпець подання, щоб додати стовпці, які ви бажаєте відображати в поданні. 
+            Крім того, можна вибрати Стовпці таблиці в області переходів ліворуч і перетягнути стовпці таблиці в подання)
+        7. In the view designer, the following tasks can be performed (У конструкторі подань можна виконати наступні завдання):
             - To change the column filtering select the header of the column where the filter is required, and then in the dropdown 
-                list select Filter by.
+                list select Filter by. (Щоб змінити фільтрування стовпця, виберіть заголовок стовпця, який потрібно фільтрувати, 
+                а тоді в розкривному списку виберіть Фільтрувати за)
             - To change the column sorting select the header of the column where sorting is needed then select Sort A-Z, Sort Z-A, 
-                Sort descending, or Sort ascending.
+                Sort descending, or Sort ascending. (Щоб змінити сортування стовпця, виберіть заголовок стовпця, в якому потрібно 
+                сортувати дані, а потім виберіть Сортування А-Я, Сортування Я-А, Сортування за спаданням чи Сортування за зростанням)
             - Configure column width by selecting and dragging the column to the desired position.
-            - Reorder columns by dragging a column to the desired position.
-            '''
-        8. Select Publish to save the view and make it available for other users in your organization.
+            - Reorder columns by dragging a column to the desired position  (Настроювання ширини стовпця шляхом вибору та 
+                перетягування стовпця у потрібне положення).
+        8. Select Publish to save the view and make it available for other users in your organization. (Змініть порядок стовпців, 
+            еретягнувши стовпець у потрібне положення)
+    '''
         
         
 'Create model-driven app'
