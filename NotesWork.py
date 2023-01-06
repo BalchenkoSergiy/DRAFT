@@ -370,5 +370,69 @@ Business rules
         Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules.
         (ізнес-правила надають простий інтерфейс для впровадження й підтримують правила, що швидко змінюються й часто використовуються)
     '''
+    View, edit or create a business rule in Power Apps:
+        '''
+            1. Sign in to Power Apps
+            2. Expand Data, select Tables, select the table required, and then under the Customizations area, select Business rules
+            3. On the command bar, select New business rule
+        '''
+    View, edit or create a business rule in form designer:
+        '''
+            1. On form designer left navigation pane, select Business rules.
+            2. Select from these options:
+                - By default, only active business rules for the form are displayed. Clear Show only active business rules to view 
+                    deactivated business rules for the form
+                - To create a business rule, select New business rule
+                - Select the business rule to view properties and edit the business rule
+        '''
+    Set the business rule properties:
+        Enter or select the following properties from the business rule command bar:
+        '''
+            - Business rule name: By default, the rule is named New business rule. We recommend you enter a meaningful name for 
+                the business rule
+            - Description: Optionally, add a description
+            - Scope: The scope of the business rule determines which forms the business rule will be applied. You set the scope, 
+                according to the following:
+                    If you select this item...          The scope is set to...
+                    Entity                              The table and all forms for the table
+                    All Forms                           All forms for the table
+                    Specific form                       Just that form
+        '''
+    Build the business rule
+        '''
+            1. Add conditions. To add more conditions to your business rule:
+                - Drag the Condition component from the Components tab to a plus sign in the designer
+                - To set properties for the condition, select the Condition component in the designer window, and then set the 
+                    properties in the Properties tab on the right side of the screen. As properties are set, an expression is 
+                    firstfircreated at the bottom of the Properties tab
+                - To add an additional clause (an AND or OR) to the condition, select New in the Properties tab to create a new 
+                    rule, and then set the properties for that rule. In the Rule Logic column, you can specify whether to add 
+                    the new rule as an AND or an OR
+                - Once finished setting properties for the condition, select Apply
+            2. Add actions. To add an action:
+                - Drag one of the action components from the Components tab to a plus sign next to Condition component. Drag 
+                    the action to a plus sign next to a check mark if you want the business rule to take that action when the 
+                    condition is met, or to a plus sign next to an x if you want the business rule to take that action if the 
+                    condition is not met
+                - To set properties for the action, select the Action component in the designer window, and then set the 
+                    properties in the Properties tab
+                - When finished setting properties, select Apply
+            3. Add a business recommendation. To add a business recommendation:
+                - Drag the Recommendation component from the Components tab to a plus sign next to a Condition component. Drag 
+                    the Recommendation component to a plus sign next to a check mark if you want the business rule to take that 
+                    action when the condition is met, or to a plus sign next to an x if you want the business rule to take that 
+                    action if the condition is not met.
+                - To set properties for the recommendation, select the Recommendation component in the designer window, and 
+                    then set the properties in the Properties tab
+                - To add more actions to the recommendation, drag them from the Components tab, and then set properties for 
+                    each action in the Properties tab
+                - When you're finished setting properties, select Apply
+            4. To validate the business rule, select Validate on the action bar.
+            5. To save the business rule, select Save on the action bar
+            6. To activate the business rule, select it in the Solution Explorer window, and then select Activate. It is not 
+                possible to activate the business rule from the designer window
+            
+            
+        '''
 
 'Security roles'
