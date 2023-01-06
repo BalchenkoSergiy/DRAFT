@@ -372,65 +372,114 @@ Business rules
     '''
     View, edit or create a business rule in Power Apps:
         '''
-            1. Sign in to Power Apps
+            1. Sign in to Power Apps (Увійти до Power Apps)
             2. Expand Data, select Tables, select the table required, and then under the Customizations area, select Business rules
+                (Розгорніть Дані, виберіть Tables, виберіть потрібну таблицю, а потім в області Customizations виберіть Business rules.)
             3. On the command bar, select New business rule
+                (На панелі команд виберіть New business rule)
         '''
     View, edit or create a business rule in form designer:
         '''
-            1. On form designer left navigation pane, select Business rules.
-            2. Select from these options:
+            1. On form designer left navigation pane, select Business rules (В конструкторі форм в області переходів ліворуч виберіть 
+                Business rules).
+            2. Select from these options (Виберіть один із наведених нижче параметрів):
                 - By default, only active business rules for the form are displayed. Clear Show only active business rules to view 
                     deactivated business rules for the form
+                    (За замовчуванням для форми відображаються тільки активні бізнес-правила. Зніміть прапорець Show only active 
+                    business rules, щоб переглянути вимкнуті бізнес-правила для форми)
                 - To create a business rule, select New business rule
+                    (Щоб створити бізнес-правило, виберіть New business rule)
                 - Select the business rule to view properties and edit the business rule
+                    (Виберіть бізнес-правило, щоб переглянути властивості та відредагувати бізнес-правило.)
         '''
     Set the business rule properties:
-        Enter or select the following properties from the business rule command bar:
+        Enter or select the following properties from the business rule command bar
+            (Введіть або виберіть наведені нижче властивості на панелі команд бізнес-правила):
         '''
             - Business rule name: By default, the rule is named New business rule. We recommend you enter a meaningful name for 
                 the business rule
-            - Description: Optionally, add a description
+                (Business rule name: за замовчуванням правило має назву Нове бізнес-правило. Рекомендуємо ввести зрозумілу 
+                назву бізнес-правила)
+            - Description: Optionally, add a description (Description: за потреби додайте опис)
             - Scope: The scope of the business rule determines which forms the business rule will be applied. You set the scope, 
-                according to the following:
+                according to the following
+                (Scope: область застосування бізнес-правила визначає, до яких форм буде застосовано це 
+                бізнес-правило. Установіть область застосування відповідно до наведених нижче умов):
                     If you select this item...          The scope is set to...
+                    (Якщо вибрати цей елемент...)       (Область застосування встановлюється у)
+                    
                     Entity                              The table and all forms for the table
+                    (Об'єкт)                            (Таблиця й усі форми для таблиці)
+                    
                     All Forms                           All forms for the table
+                    (Усі форми)                         (Усі форми для таблиці)
+                    
                     Specific form                       Just that form
+                    (Особлива форма)                    (Тільки ця форма)
         '''
     Build the business rule
         '''
-            1. Add conditions. To add more conditions to your business rule:
+            1. Add conditions. To add more conditions to your business rule
+                (Додати умови. Щоб додати інші умови, до ваших бізнес-правил):
                 - Drag the Condition component from the Components tab to a plus sign in the designer
+                    (Перетягнути компонент Condition з вкладки Components на знак плюса у конструкторі)
                 - To set properties for the condition, select the Condition component in the designer window, and then set the 
                     properties in the Properties tab on the right side of the screen. As properties are set, an expression is 
                     firstfircreated at the bottom of the Properties tab
+                    (Щоб указати властивості для цієї умови, виберіть компонент condition у вікні конструктора і вкажіть властивості 
+                    у вкладці Properties у правій частині екрана. Оскільки властивості встановлено, створюється вираз в нижній 
+                    частині вкладки Properties.)
                 - To add an additional clause (an AND or OR) to the condition, select New in the Properties tab to create a new 
                     rule, and then set the properties for that rule. In the Rule Logic column, you can specify whether to add 
                     the new rule as an AND or an OR
+                    (Щоб додати додатковий пункт (наприклад, "та" або "або") до умови, виберіть New у вкладці Properties, 
+                    щоб створити нове правило, а потім вкажіть властивості для нього. У стовпці Rule Logic можна вказати, 
+                    чи додати нове правило як AND або як OR)
                 - Once finished setting properties for the condition, select Apply
-            2. Add actions. To add an action:
+                    (Після завершення встановлення властивостей для умови, натисніть Apply)
+            2. Add actions. To add an action (Додати дії. Щоб додати дію):
                 - Drag one of the action components from the Components tab to a plus sign next to Condition component. Drag 
                     the action to a plus sign next to a check mark if you want the business rule to take that action when the 
                     condition is met, or to a plus sign next to an x if you want the business rule to take that action if the 
                     condition is not met
+                    (Перетягніть один із компонентів дії з вкладки Components на знак «плюс» поруч із компонентом Condition. 
+                    Перетягніть дію на знак «плюс» поруч із галочкою, якщо ви хочете, щоб бізнес-правило виконувало дію, коли
+                    виконується умова, або на знак «плюс» поруч із "x", якщо бізнес-правило повинно робити цю дію, якщо умова
+                    не виконується)
                 - To set properties for the action, select the Action component in the designer window, and then set the 
                     properties in the Properties tab
+                    (Щоб установити властивості для цієї дії, виберіть компонент Action у вікні конструктора і встановіть 
+                    властивості у вкладці Properties)
                 - When finished setting properties, select Apply
-            3. Add a business recommendation. To add a business recommendation:
+                    (Після завершення встановлення властивостей, натисніть кнопку Apply)
+            3. Add a business recommendation. To add a business recommendation
+                (Add a business recommendation. Щоб додати бізнес-рекомендацію):
                 - Drag the Recommendation component from the Components tab to a plus sign next to a Condition component. Drag 
                     the Recommendation component to a plus sign next to a check mark if you want the business rule to take that 
                     action when the condition is met, or to a plus sign next to an x if you want the business rule to take that 
-                    action if the condition is not met.
+                    action if the condition is not met
+                    (Перетягніть компонент Recommendation із вкладки Components на знак «плюс» поруч із компонентом Condition. 
+                    Перетягніть компонент Recommendation на знак "плюс" поруч із галочкою, якщо ви хочете, щоб бізнес-правило 
+                    виконувало цю дію, коли виконується умова, або на знак «плюс» поруч із "x", якщо бізнес-правило повинно 
+                    робити цю дію, якщо умова не виконується).
                 - To set properties for the recommendation, select the Recommendation component in the designer window, and 
                     then set the properties in the Properties tab
+                    (Щоб установити властивості для цієї рекомендації, виберіть компонент Recommendation у вікні конструктора 
+                    і встановіть властивості у вкладці Properties)
                 - To add more actions to the recommendation, drag them from the Components tab, and then set properties for 
                     each action in the Properties tab
+                    (Щоб додати більше дій у рекомендацію, перетягніть їх із вкладки Components, а потім встановіть властивості 
+                    для кожної дії у вкладці Properties)
                 - When you're finished setting properties, select Apply
-            4. To validate the business rule, select Validate on the action bar.
+                    (Після завершення встановлення властивостей, натисніть кнопку Apply)
+            4. To validate the business rule, select Validate on the action bar
+                (Щоб перевірити бізнес-правило, виберіть Validate на панелі завдань).
             5. To save the business rule, select Save on the action bar
+                (Щоб зберегти бізнес-правило, виберіть Save на панелі завдань)
             6. To activate the business rule, select it in the Solution Explorer window, and then select Activate. It is not 
                 possible to activate the business rule from the designer window
+                (Щоб активувати бізнес-правило, виберіть його у вікні провідника рішень і виберіть Activate. Бізнес-правило 
+                неможливо активувати з вікна конструктора)
             
             
         '''
