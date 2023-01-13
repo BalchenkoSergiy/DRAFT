@@ -1,10 +1,10 @@
-Main page Power Apps: (For running app)
+'Main page Power Apps: (For running app)'
     https://make.powerapps.com/environments/61be436c-10d7-e8dd-b075-1367221019f1/apps#
 
-Link to my Pet project
+'Link to my Pet project'
     https://make.powerapps.com/e/61be436c-10d7-e8dd-b075-1367221019f1/s/82ecc8b3-a280-ed11-81ac-6045bd5cd155/app/edit/a6708dad-5081-ed11-81ac-6045bd5cd155
 
-Create table
+'Create table'
     Notes about tables:
         'Tables where formerly called entities'
         'A single row within a table is known as a record'
@@ -169,7 +169,7 @@ Create table
         To identify and remove any dependencies, you'll need to use the solution explorer.)
         '''
         
-Create columns Different types, including calculated and rollup
+'Create columns #Different types, including calculated and rollup'
     Наведена нижче таблиця містить відповідний AttributeTypeDisplayName тип API.
         (The following table includes the corresponding AttributeTypeDisplayName API type.)
         '''
@@ -244,244 +244,62 @@ Create columns Different types, including calculated and rollup
                                     (A system column stores a globally unique identifier (GUID) value for each row.)
         '''
     
+'Create forms'
 
-Create forms
-    
-        
-Different types, including main, quick view and quick create
-    Form types (Типи форм):
-        - Main (the main user interface) (Головна (головний інтерфейс користувача))
-            '''
-                Used in model-driven apps, Dynamics 365 for tablets, and Dynamics 365 for Outlook
-                These forms provide the main user interface for viewing and interacting with table data
-                (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook
-                Ці форми забезпечують основний інтерфейс користувача для перегляду даних таблиці та взаємодії з ними)
-                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/main-form-dialog.gif
-            '''
-        - Quick create (rapid data entry) (Швидке створення (швидке введення даних))
-            '''
-                Used in model-driven apps, Dynamics 365 for tablets, and Dynamics 365 for Outlook.
-                For updated tables, these forms provide a basic form optimized for creating new records.
-                (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook.
-                Для оновлених таблиць ці форми забезпечують базову форму, оптимізовану для створення нових записів.)
-                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/quick-create-form.gif
-            '''
-        - Quick view (to see related data) (Швидке подання (для перегляду пов’язаних даних))
-            '''
-                Used in model-driven apps, Dynamics 365 for tablets, and Dynamics 365 for Outlook.
-                For updated tables, these forms appear within the main form to display additional data for a row that is referenced 
-                    by a lookup column in the form.
-                Users can view data from related tables without having to leave the form.
-                (Використовуються в пограмах на основі моделі, Dynamics 365 для планшетів і Dynamics 365 for Outlook.
-                Для оновлених таблиць ці форми відображаються в основній формі для відображення додаткових даних для рядка, на який 
-                    є посилання в стовпці підстановки у формі.
-                Користувачі можуть переглядати дані з пов’язаних таблиць, не залишаючи форму.)
-                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/quick-view-form-control.png
-            '''
-        - Card form (a compact view) (Форма картки (компактне подання))
-            '''
-                Used in views for model-driven apps. Card forms are designed to present information in a compact format that is 
-                suitable for mobile devices.
-                (Використовується в поданнях для модельних програм. Форми картки форми призначені для представлення відомостей у 
-                компактному форматі, що підходить для мобільних пристроїв.)
-                https://learn.microsoft.com/uk-ua/power-apps/maker/model-driven-apps/media/card-format.png
-            '''
+'Different types, including main, quick view and quick create'
 
-Create views
-    '''Model-driven apps use views to define how a list of records for a specific table are displayed in the application (У модельних 
-        програмах використовуються подання, за допомогою яких можна визначити, як список записів для певної таблиці відображається 
-        у програмі.)'''
-    Create a public view in Power Apps
-    '''
-        1. Sign in to Power Apps (Увійти до Power Apps)
-        2. Select an environment (Виберіть середовище)
-            It is best practice to create tables inside a custom solution. More information: Solution (glossary)
-            (Краще створити таблиці в настроюваному рішенні. Додаткові відомості: Рішення (глосарій))
-        3. Expand Data, select Tables, select the table you want, and then select the Views area. If using a custom solution, open 
-            the solution, open the table, and then select the Views area.
-            (Розгорніть Дані, виберіть Таблиці, виберіть потрібну таблицю, а потім виберіть область Подання. Якщо використовується 
-            настроюване рішення, відкрийте рішення, відкрийте таблицю, а потім виберіть область Подання)
-        4. On the toolbar, select Add view. (Виберіть Додати подання на панелі інструментів)
-        5. On the Create a view dialog, enter a name and, optionally, a description, and then select Create. 
-            (У діалоговому вікні Створити подання введіть ім'я і, за потреби, опис, а потім виберіть Створити)
-        6. In the view designer, select + View column to add additional columns needed within the view. Or, select Table columns 
-            in the left navigation and drag the table columns into your view.
-            (У конструкторі подань виберіть + Стовпець подання, щоб додати стовпці, які ви бажаєте відображати в поданні. 
-            Крім того, можна вибрати Стовпці таблиці в області переходів ліворуч і перетягнути стовпці таблиці в подання)
-        7. In the view designer, the following tasks can be performed (У конструкторі подань можна виконати наступні завдання):
-            - To change the column filtering select the header of the column where the filter is required, and then in the dropdown 
-                list select Filter by. (Щоб змінити фільтрування стовпця, виберіть заголовок стовпця, який потрібно фільтрувати, 
-                а тоді в розкривному списку виберіть Фільтрувати за)
-            - To change the column sorting select the header of the column where sorting is needed then select Sort A-Z, Sort Z-A, 
-                Sort descending, or Sort ascending. (Щоб змінити сортування стовпця, виберіть заголовок стовпця, в якому потрібно 
-                сортувати дані, а потім виберіть Сортування А-Я, Сортування Я-А, Сортування за спаданням чи Сортування за зростанням)
-            - Configure column width by selecting and dragging the column to the desired position.
-            - Reorder columns by dragging a column to the desired position  (Настроювання ширини стовпця шляхом вибору та 
-                перетягування стовпця у потрібне положення).
-        8. Select Publish to save the view and make it available for other users in your organization. (Змініть порядок стовпців, 
-            еретягнувши стовпець у потрібне положення)
-    '''
-    
-Create model-driven app
-    '''
-    1. Sign in to Power Apps
-    2. Select the environment
-        Each environment can have one Dataverse database.
-    3. Create your model-driven app
-        3.1 Select Solutions on the left navigation pane, and then select New solution.
-            (Виберіть «Рішення» в області переходів ліворуч, а потім натисніть «Створити рішення»)
-        3.2 Enter a Display name for your solution, such as Power Apps Training. Next, you add the account table that will be 
-            included in your model-driven app. (Введіть Коротке ім'я рішення, наприклад "Навчання з Power Apps". Потім додайте 
-            таблицю бізнес-партнерів, яку буде включено в модельну програму)
-        3.3 In your solution, select Add existing, and then select Table
-            (У рішенні виберіть Додати наявні та виберіть Таблиця)
-        3.4 Under Add existing tables screen, select the Account table, and then select Next.
-            (На екрані Додати наявні таблиці виберіть таблицю Бізнес-партнер і натисніть кнопку Далі)
-        3.5 Select Include all components, and then select Add.
-            (Виберіть Включити всі компоненти та натисніть кнопку Додати)
-        3.6 In your solution, select New, select App, and then select Model-driven app
-            (У рішенні натисніть кнопку Створити, виберіть Програма, а потім — Модельна програма)
-        3.7 Enter a name for the app, such as My new custom app2, and then select Create
-            (Введіть ім’я програми, наприклад Мою нова настроювана програма2, і натисніть кнопку Створити)
-    4. Add pages to your app
-        4.1 Select New page from the Pages menu (Виберіть Нова сторінка в меню Сторінки)
-        4.2 Select Table based view and form, and then select Next (Виберіть Подання та форма на основі таблиці та натисніть кнопку Далі)
-        4.3 Select a table, such as Contact (Виберіть таблицю, наприклад, Контактна особа)
-        4.4 Select Contact view, and then select Add view (Виберіть Подання контактної особи, а потім натисніть Додати подання)
-        4.5 Select the views that you want to add to the app. Save and publish to see selected views in preview
-            (Виберіть подання, які потрібно додати до програми. Збережіть та опублікуйте, щоб переглянути вибрані подання в режимі 
-            попереднього перегляду)
-        4.6 On the app designer command bar, select Save (На панелі команд конструктора програм натисніть Зберегти)
-    5. Publish your app - On the app designer command bar, select Publish. After publishing the app, it's ready for you to 
-        run or share with others
-            (На панелі команд конструктора програм натисніть Опублікувати - Після публікації програма готова до запуску для вас або 
-            спільного використання з іншими користувачами)
-    6. Run your app on a desktop computer
-        6.1 To run your app, sign in to Power Apps, and on the left navigation pane, select Apps
-            (Щоб запустити програму, увійдіть до Power Apps та в області переходів ліворуч виберіть Програми)
-        6.2 Select the app from the app list. The app opens in your browser. If you want to show the chart, use the 
-            button Show Chart
-                (Виберіть програму в списку програм. Програма відкриється у браузері. Щоб відобразити діаграму, скористайтеся кнопкою 
-                Показати діаграму)
-    '''
+'Create views'
 
-Business rules
-    '''
-        Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules.
-        (ізнес-правила надають простий інтерфейс для впровадження й підтримують правила, що швидко змінюються й часто використовуються)
-    '''
-    View, edit or create a business rule in Power Apps:
-        '''
-            1. Sign in to Power Apps (Увійти до Power Apps)
-            2. Expand Data, select Tables, select the table required, and then under the Customizations area, select Business rules
-                (Розгорніть Дані, виберіть Tables, виберіть потрібну таблицю, а потім в області Customizations виберіть Business rules.)
-            3. On the command bar, select New business rule
-                (На панелі команд виберіть New business rule)
-        '''
-    View, edit or create a business rule in form designer:
-        '''
-            1. On form designer left navigation pane, select Business rules (В конструкторі форм в області переходів ліворуч виберіть 
-                Business rules).
-            2. Select from these options (Виберіть один із наведених нижче параметрів):
-                - By default, only active business rules for the form are displayed. Clear Show only active business rules to view 
-                    deactivated business rules for the form
-                    (За замовчуванням для форми відображаються тільки активні бізнес-правила. Зніміть прапорець Show only active 
-                    business rules, щоб переглянути вимкнуті бізнес-правила для форми)
-                - To create a business rule, select New business rule
-                    (Щоб створити бізнес-правило, виберіть New business rule)
-                - Select the business rule to view properties and edit the business rule
-                    (Виберіть бізнес-правило, щоб переглянути властивості та відредагувати бізнес-правило.)
-        '''
-    Set the business rule properties:
-        Enter or select the following properties from the business rule command bar
-            (Введіть або виберіть наведені нижче властивості на панелі команд бізнес-правила):
-        '''
-            - Business rule name: By default, the rule is named New business rule. We recommend you enter a meaningful name for 
-                the business rule
-                (Business rule name: за замовчуванням правило має назву Нове бізнес-правило. Рекомендуємо ввести зрозумілу 
-                назву бізнес-правила)
-            - Description: Optionally, add a description (Description: за потреби додайте опис)
-            - Scope: The scope of the business rule determines which forms the business rule will be applied. You set the scope, 
-                according to the following
-                (Scope: область застосування бізнес-правила визначає, до яких форм буде застосовано це 
-                бізнес-правило. Установіть область застосування відповідно до наведених нижче умов):
-                    If you select this item...          The scope is set to...
-                    (Якщо вибрати цей елемент...)       (Область застосування встановлюється у)
-                    
-                    Entity                              The table and all forms for the table
-                    (Об'єкт)                            (Таблиця й усі форми для таблиці)
-                    
-                    All Forms                           All forms for the table
-                    (Усі форми)                         (Усі форми для таблиці)
-                    
-                    Specific form                       Just that form
-                    (Особлива форма)                    (Тільки ця форма)
-        '''
-    Build the business rule
-        '''
-            1. Add conditions. To add more conditions to your business rule
-                (Додати умови. Щоб додати інші умови, до ваших бізнес-правил):
-                - Drag the Condition component from the Components tab to a plus sign in the designer
-                    (Перетягнути компонент Condition з вкладки Components на знак плюса у конструкторі)
-                - To set properties for the condition, select the Condition component in the designer window, and then set the 
-                    properties in the Properties tab on the right side of the screen. As properties are set, an expression is 
-                    firstfircreated at the bottom of the Properties tab
-                    (Щоб указати властивості для цієї умови, виберіть компонент condition у вікні конструктора і вкажіть властивості 
-                    у вкладці Properties у правій частині екрана. Оскільки властивості встановлено, створюється вираз в нижній 
-                    частині вкладки Properties.)
-                - To add an additional clause (an AND or OR) to the condition, select New in the Properties tab to create a new 
-                    rule, and then set the properties for that rule. In the Rule Logic column, you can specify whether to add 
-                    the new rule as an AND or an OR
-                    (Щоб додати додатковий пункт (наприклад, "та" або "або") до умови, виберіть New у вкладці Properties, 
-                    щоб створити нове правило, а потім вкажіть властивості для нього. У стовпці Rule Logic можна вказати, 
-                    чи додати нове правило як AND або як OR)
-                - Once finished setting properties for the condition, select Apply
-                    (Після завершення встановлення властивостей для умови, натисніть Apply)
-            2. Add actions. To add an action (Додати дії. Щоб додати дію):
-                - Drag one of the action components from the Components tab to a plus sign next to Condition component. Drag 
-                    the action to a plus sign next to a check mark if you want the business rule to take that action when the 
-                    condition is met, or to a plus sign next to an x if you want the business rule to take that action if the 
-                    condition is not met
-                    (Перетягніть один із компонентів дії з вкладки Components на знак «плюс» поруч із компонентом Condition. 
-                    Перетягніть дію на знак «плюс» поруч із галочкою, якщо ви хочете, щоб бізнес-правило виконувало дію, коли
-                    виконується умова, або на знак «плюс» поруч із "x", якщо бізнес-правило повинно робити цю дію, якщо умова
-                    не виконується)
-                - To set properties for the action, select the Action component in the designer window, and then set the 
-                    properties in the Properties tab
-                    (Щоб установити властивості для цієї дії, виберіть компонент Action у вікні конструктора і встановіть 
-                    властивості у вкладці Properties)
-                - When finished setting properties, select Apply
-                    (Після завершення встановлення властивостей, натисніть кнопку Apply)
-            3. Add a business recommendation. To add a business recommendation
-                (Add a business recommendation. Щоб додати бізнес-рекомендацію):
-                - Drag the Recommendation component from the Components tab to a plus sign next to a Condition component. Drag 
-                    the Recommendation component to a plus sign next to a check mark if you want the business rule to take that 
-                    action when the condition is met, or to a plus sign next to an x if you want the business rule to take that 
-                    action if the condition is not met
-                    (Перетягніть компонент Recommendation із вкладки Components на знак «плюс» поруч із компонентом Condition. 
-                    Перетягніть компонент Recommendation на знак "плюс" поруч із галочкою, якщо ви хочете, щоб бізнес-правило 
-                    виконувало цю дію, коли виконується умова, або на знак «плюс» поруч із "x", якщо бізнес-правило повинно 
-                    робити цю дію, якщо умова не виконується).
-                - To set properties for the recommendation, select the Recommendation component in the designer window, and 
-                    then set the properties in the Properties tab
-                    (Щоб установити властивості для цієї рекомендації, виберіть компонент Recommendation у вікні конструктора 
-                    і встановіть властивості у вкладці Properties)
-                - To add more actions to the recommendation, drag them from the Components tab, and then set properties for 
-                    each action in the Properties tab
-                    (Щоб додати більше дій у рекомендацію, перетягніть їх із вкладки Components, а потім встановіть властивості 
-                    для кожної дії у вкладці Properties)
-                - When you're finished setting properties, select Apply
-                    (Після завершення встановлення властивостей, натисніть кнопку Apply)
-            4. To validate the business rule, select Validate on the action bar
-                (Щоб перевірити бізнес-правило, виберіть Validate на панелі завдань).
-            5. To save the business rule, select Save on the action bar
-                (Щоб зберегти бізнес-правило, виберіть Save на панелі завдань)
-            6. To activate the business rule, select it in the Solution Explorer window, and then select Activate. It is not 
-                possible to activate the business rule from the designer window
-                (Щоб активувати бізнес-правило, виберіть його у вікні провідника рішень і виберіть Activate. Бізнес-правило 
-                неможливо активувати з вікна конструктора)
-            
-            
-        '''
+'Create model-driven app'
+
+'Business rules'
 
 'Security roles'
+
+'For new employee'
+    1. Hardware:
+    '''
+        Computer: Desktop/Laptop
+        Monitor(s): Model(s), size
+        Keyboard
+        Mouse
+        Headset
+        Web Cam
+        Cables
+        UPS
+    '''
+    
+    2. Create IT Admin account
+    
+    '''
+        Microsoft Teams
+        Outlook (if not using web client)
+        Additional browsers: Chrome, Firefox
+        Notepad ++
+        Microsoft Office
+    '''
+    
+    3. Additional software for Technicians
+    '''
+        XRM ToolBox
+        Configuration Migration Tool
+        etc.
+    '''
+    
+    4. Additional software for Developers
+    '''
+        Visual Studio
+        etc.
+    '''
+    
+    5. List for new Employee:
+    '''
+        Outlook:        https://outlook.office.com/ 
+        JIRA:           https://engineeredcode.atlassian.net/ 
+        Confluence:     https://engineeredcode.atlassian.net/wiki/spaces/KB/overview/ 
+        Freshbooks:     https://my.freshbooks.com/ 
+        LastPass:       https://lastpass.com/ 
+        Azure DevOps:   https://engineeredcode.visualstudio.com/
+    '''
+ 
+ 'For exiting employee'
