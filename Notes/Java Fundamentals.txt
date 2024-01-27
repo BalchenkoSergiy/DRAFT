@@ -1,10 +1,27 @@
+*** Variables and Data Types ***
     DATA types:
 Primitive data types:
-    - byte
-    - short
-    - int
-    - long
-    - float
-    - double
-    - char
-    - boolean
+    - byte      - number            - 4 bytes
+    - short     - number            - 2 bytes
+    - int       - number            - 8 bytes
+    - long      - number            - 1 bytes
+    - float     - float number      - 4 bytes 
+    - double    - float number      - 8 bytes
+    - char      - a character       - unicode encoding (2 bytes)
+    - boolean   - true or false     - true or false
+
+    при ініціалізації змінних пишемо ці типи данних завжди із малої літери
+ 
+Non-Primitive data types (це типи, які не завжди визначені. Ви також можете визначити відповідно до ваших потреб):
+    - об'єктно-орієнтовані класи
+    - рядки, масиви рядків та клас
+
+
+Three types of variables:
+    - Local
+    - Instance - Створена на рівні класу
+    - Class/Static - На рівні імені класу
+
+Declaring of variables:
+    [data type] [variable] [= value] [ ,variable [ = value]....];
+    Можна ініціалізувати одразу кілька змінних через кому
