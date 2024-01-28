@@ -16,6 +16,7 @@ Non-Primitive data types (це типи, які не завжди визначе
     - об'єктно-орієнтовані класи
     - рядки, масиви рядків та клас
 
+Основна різниця між примітивними та не примітивними типами данних є: коли ми посилаємось на змінну із примітивним типом данних і потім змінюємо значення то значення зміниться тільки у однієї змінної. А якщо ми будемо це робити із не примітивним типом данних то значення зміниться у всіх залежних змінних.
 
 Three types of variables:
     - Local
@@ -25,3 +26,35 @@ Three types of variables:
 Declaring of variables:
     [data type] [variable] [= value] [ ,variable [ = value]....];
     Можна ініціалізувати одразу кілька змінних через кому
+
+*** Demo: Working with Data Types ***
+
+package JavaDeveloper.JavaFundamentals.src.basics;
+
+import java.util.Date;
+
+public class VariablesAndDataTypesExample {
+    public static void main(String[] args) {
+
+        // Primitive data types
+        byte age = 23;
+        long viewsCount = 1_112_345_678;
+        float price = 234.56F;
+        char gender = 'M';
+        boolean isValid = true;
+        
+        System.out.println(age);
+        System.out.println(viewsCount);
+        System.out.println(price);
+        System.out.println(gender);
+        System.out.println(isValid);
+
+        // Non-Primitive data types
+        String name = "King Kochhar";
+        Date now = new Date();
+
+        System.out.println(name);
+        System.out.println(now);
+    }
+    
+}
