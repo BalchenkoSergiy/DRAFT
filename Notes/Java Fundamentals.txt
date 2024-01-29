@@ -58,3 +58,47 @@ public class VariablesAndDataTypesExample {
     }
     
 }
+
+*** Reading input from user ***
+У Java ви можете приймати введення трьома способами. 
+    - BufferedReader
+    - Scanner
+        Зчитує ввід із клавіатури та повертає String
+        Методи які можна використовувати тут:
+            - public String next() - Returns the next token from the scanner.
+            - public String nextLine() - Moved the scanner position to the next line and returnes the value as a string.
+            - public byte nextByte() - Scanes the next token as a byte.
+            - Public short nextShort() - Scanes the next token as a short value.
+            - public int nextInt() - Scanes the next token as an int value.
+    - Console
+
+    package JavaDeveloper.JavaFundamentals.src.basics;
+
+import java.util.Scanner;
+
+public class readingInputFromUser_04 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name:");
+        String name1 = scanner.nextLine();
+
+        System.out.print("Enter your age:");
+        int age = scanner.nextInt();
+
+        System.out.print("Enter your gender (M/F)");
+        char gender = scanner.next().charAt(0);
+
+        System.out.print("Enter your contact:");
+        double contact = scanner.nextDouble();
+
+        System.out.print("What is your name? \n");
+        Scanner scanner1 = new Scanner(System.in);
+        String name2 = scanner1.next();
+
+        System.out.println("Name1 -> " + name1);
+        System.out.println("Age -> " + age);
+        System.out.println("Gender -> " + gender);
+        System.out.println("Contact -> " + contact);
+        System.out.println("Name2 -> " + name2);
+    }
+}
